@@ -23,8 +23,8 @@ const Header = () => {
             <nav>
                 <ul className="flex space-x-4">
                     <li>
-                        <a href="https://github.com/yourusername">
-                            <img src="/images/github-mark/github-mark-white.png" alt="GitHub" width="24" height="24" />
+                        <a href="https://github.com/RahsanLewis">
+                            <img src="/images/github-mark/github-mark-white.svg" alt="GitHub" width="24" height="24" />
                         </a>
                     </li>
                     <li>
