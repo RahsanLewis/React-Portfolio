@@ -1,23 +1,31 @@
 import React from 'react';
-import Link from 'next/link'; // Add this import
+import Link from 'next/link';
 
 const Header = () => {
     return (
-        <header className="bg-black text-white flex justify-between items-center py-6 px-4">
+        <header className="bg-gray-100 text-black border border-gray-200 shadow-xl flex justify-between items-center py-6 px-4">
             <h1 className="text-2xl font-bold">Rahsan Lewis</h1>
             <nav>
                 <ul className="flex space-x-4">
                     <li>
-                        <Link href="/" className="hover:text-gray-300 transition-colors duration-200">Home</Link>
+                        <Link href="/" passHref>
+                            <p className="cursor-pointer hover:text-gray-300 transition-colors duration-200">Home</p>
+                        </Link>
                     </li>
                     <li>
-                        <Link href="/about" className="hover:text-gray-300 transition-colors duration-200">About</Link>
+                        <Link href="/about" passHref>
+                            <p className="cursor-pointer hover:text-gray-300 transition-colors duration-200">About</p>
+                        </Link>
                     </li>
                     <li>
-                        <Link href="/projects" className="hover:text-gray-300 transition-colors duration-200">Projects</Link>
+                        <Link href="/projects" passHref>
+                            <p className="cursor-pointer hover:text-gray-300 transition-colors duration-200">Projects</p>
+                        </Link>
                     </li>
                     <li>
-                        <Link href="/contact" className="hover:text-gray-300 transition-colors duration-200">Contact</Link>
+                        <Link href="/contact" passHref>
+                            <p className="cursor-pointer hover:text-gray-300 transition-colors duration-200">Contact</p>
+                        </Link>
                     </li>
                 </ul>
             </nav>
