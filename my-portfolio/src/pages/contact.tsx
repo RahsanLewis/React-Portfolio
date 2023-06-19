@@ -11,7 +11,7 @@ const ContactPage = () => {
                 <p className="text-black flex flex-col items-center text-center mt-4">
                     rahsanlewis@gmail.com
                 </p>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-500 flex flex-col items-center text-center mt-4">
+                <a href="https://www.linkedin.com/in/rahsan-lewis/" target="_blank" rel="noopener noreferrer" className="text-blue-500 flex flex-col items-center text-center mt-4">
                     LinkedIn Profile
                 </a>
             </div>
