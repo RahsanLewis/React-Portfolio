@@ -9,7 +9,7 @@ const AboutPage = () => (
                 For years I have been constantly striving to improve my skills and learn new technologies. The joy I find in solving complex problems and creating intuitive, dynamic user experiences is what drives me in this rapidly evolving industry.</p>
 
             <p className="text-xl text-black text-center m-4 p-2">When I am not in front of a computer screen, I enjoy playing basketball, traveling, and spending time with family and friends.
-                I'm always up for a new challenge and look forward to bringing my passion to new projects.</p>
+                I am always up for a new challenge and look forward to bringing my passion to new projects.</p>
 
             <p className="text-xl text-black text-center m-4 p-2">
                 If you would like to know more about my work or discuss potential opportunities, please feel free to get in
