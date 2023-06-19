@@ -19,7 +19,7 @@ const AboutPage = () => (
                 .
             </p>
             <p className="text-xl text-black text-center m-4 p-2">
-                View my <a href="/resume.pdf" download className="text-blue-500">Resume</a>.
+                View my <a href="/Resume.pdf" download className="text-blue-500">Resume</a>.
             </p>
 
         </div>
