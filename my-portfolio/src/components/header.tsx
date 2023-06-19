@@ -40,7 +40,7 @@ const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/in/yourusername">
+                            <a href="https://www.linkedin.com/in/rahsan-lewis/">
                                 <img src="/images/Linkedin-Logos/LI-In-Bug.png" alt="LinkedIn" width="24" height="24" />
                             </a>
                         </li>
