@@ -39,11 +39,6 @@ const Header = () => {
                                 <img src="/images/github-mark/github-mark.svg" alt="GitHub" width="24" height="24" />
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/rahsan-lewis/">
-                                <img src="/images/Linkedin-Logos/LI-In-Bug.png" alt="LinkedIn" width="24" height="24" />
-                            </a>
-                        </li>
                     </ul>
                 </nav>
             </div>
