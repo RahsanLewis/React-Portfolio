@@ -1,19 +1,29 @@
 import React from 'react';
 import Layout from '../components/layout';
+import Link from 'next/link';
 
-const AboutPage = () => {
-    return (
-        <Layout>
-        <div className="max-w-md mx-auto bg-gray-100 border border-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4 p-6 flex flex-col items-center">
-            <h1 className="text-2xl font-bold mb-2 text-black ">About Me</h1>
-            <p className="text-gray-500">This is a page where I tell you all about me.</p>
-            <p className="mt-4 text-gray-500">
-              View my 
-              <a href="/path-to-your-resume.pdf" className="text-blue-500 hover:text-blue-800" target="_blank" rel="noopener noreferrer">Resume</a>
+const AboutPage = () => (
+    <Layout>
+        <div className="flex flex-col items-center mt-6 p-6">
+            <p className="text-xl text-black text-center m-4 p-2">Hello! I'm a full-stack developer based in Central Pennsylvania with a specialty in building applications using React. I have a strong passion for coding and love every aspect of my work.
+                For years I've been constantly striving to improve my skills and learn new technologies. The joy I find in solving complex problems and creating intuitive, dynamic user experiences is what drives me in this rapidly evolving industry.</p>
+
+            <p className="text-xl text-black text-center m-4 p-2">When I'm not in front of a computer screen, I enjoy playing basketball, traveling, and spending time with family and friends.
+                I'm always up for a new challenge and look forward to bringing my passion to new projects.</p>
+
+            <p className="text-xl text-black text-center m-4 p-2">
+                If you'd like to know more about my work or discuss potential opportunities, please feel free to get in
+                <Link href="/contact">
+                    <span className="text-blue-500 cursor-pointer hover:text-blue-300 transition-colors duration-200"> touch</span>
+                </Link>
+                .
             </p>
+            <p className="text-xl text-black text-center m-4 p-2">
+                View my <a href="/resume.pdf" download className="text-blue-500">Resume</a>.
+            </p>
+
         </div>
-        </Layout>
-    );
-}
+    </Layout>
+)
 
 export default AboutPage;

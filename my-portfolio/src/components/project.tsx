@@ -9,7 +9,7 @@ interface ProjectProps {
 
 const Project: React.FC<ProjectProps> = ({ project }) => {
   return (
-    <div className="bg-gray-100 text-black border border-gray-200 rounded-xl shadow-xl m-4 p-4 transform transition-transform duration-500 hover:scale-105">
+    <div className="bg-gray-200 text-black border border-gray-300 rounded-xl shadow-xl m-4 p-4 transform transition-transform duration-500 hover:scale-105">
       <h2 className="text-xl font-semibold mb-2 text-center">{project.title}</h2>
       <p className="mb-4 text-center">{project.description}</p>
       <a href={project.link} target="_blank" rel="noopener noreferrer">

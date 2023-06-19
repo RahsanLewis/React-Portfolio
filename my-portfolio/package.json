@@ -26,5 +26,6 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "mini-css-extract-plugin": "^2.7.6"
   }
 }
